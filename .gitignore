@@ -1,0 +1,6 @@
+venv/
+credentials.json
+goals.json
+token.json
+.env
+*.pyc
