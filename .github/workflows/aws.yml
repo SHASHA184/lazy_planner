@@ -59,7 +59,7 @@ jobs:
 
       env:
         IMAGE_TAG: ${{ github.sha }}
-        REPOSITORY_URI: ${{ secrets.AWS_ACCOUNT_ID }}.dkr.ecr.${{ secrets.AWS_REGION }}.amazonaws.com/${{ secrets.ECR_REPOSITORY }}
+        REPOSITORY_URI: ${{ secrets.AWS_ACCOUNT_ID }}.dkr.ecr.${{ secrets.AWS_REGION }}.amazonaws.com/${{ secrets.ECR_REGISTRY }}
 
       run: |
         # Build a docker container and
